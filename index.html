@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Test 123</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sliding Pictures</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="slide">
+        <img src="image1.jpg">
+      </div>
+      <div class="slide">
+        <img src="image2.jpg">
+      </div>
+      <div class="slide">
+        <img src="image3.jpg">
+      </div>
+      <button class="prev" onclick="prevSlide()">&#10094;</button>
+      <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
 
-<body>
-Test
-<img src=".\test_pic.jpg"
-width="400"
-height="500">
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
